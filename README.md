@@ -51,7 +51,7 @@ The newly evaluated residual then provides an a posteriori error signal for
 closed-loop calibration.
 
 The current formulation uses first-order residual forecasting rather than the
-zero-order residual reuse adopted by conventional caching methods.:chatgpt-content-reference{index="1"}
+zero-order residual reuse adopted by conventional caching methods.
 
 
 ## Results
