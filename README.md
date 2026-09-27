@@ -33,7 +33,8 @@ TAFC requires **no additional training or fine-tuning**.
 ## Method Overview
 
 <p align="center">
-  <img src="assets/tafc_method.png" width="1000" />
+  <img width="2306" height="1140" alt="480d71705ddacc4b706113925bd20ae0" src="https://github.com/user-attachments/assets/258d1fe0-69ec-4b38-bd13-b68074225cc8" />
+
 </p>
 
 <p align="center">
