@@ -61,11 +61,8 @@ zero-order residual reuse adopted by conventional caching methods.
 | Method | Latency ↓ | PSNR ↑ | LPIPS ↓ | HPSv3 ↑ |
 |---|---:|---:|---:|---:|
 | Baseline (50 steps) | 20.90s | - | - | 10.6060 |
-| SeaCache (δ=0.3) | 9.82s | 26.29 | 0.106 | 10.5126 |
 | **TAFC (δ=0.04)** | **9.37s** | **29.87** | **0.051** | **10.6623** |
-| SeaCache (δ=0.6) | 6.43s | 21.33 | 0.226 | 10.3573 |
 | **TAFC (δ=0.15)** | **5.94s** | **21.35** | **0.196** | **10.8605** |
-| SeaCache (δ=0.8) | 5.07s | 18.49 | 0.266 | 10.1945 |
 | **TAFC (δ=0.30)** | **4.61s** | **19.41** | **0.240** | **10.9129** |
 
 ### Video Generation
