@@ -149,29 +149,15 @@ Latency may vary depending on your GPU.
 
 ### Qualitative samples (T2V 1.3B, 480p)
 
-Left to right: original (50 steps), SeaCache (δ = 0.2), TAFC (δ = 0.03). If the videos do not play inline, use the mp4 links.
+Left to right: original (50 steps), Ours, SeaCache, TeaCache, TaylorSeer. If the videos do not play inline, use the mp4 links.
 
-*a backpack and an umbrella*
+https://github.com/user-attachments/assets/3ef35525-1dde-4df7-8ae9-16ac65dd42ab
 
-<table>
-<tr><th align='center'>Original</th><th align='center'>SeaCache (δ = 0.2)</th><th align='center'>TAFC (δ = 0.03)</th></tr>
-<tr>
-<td><video src="../assets/samples/wan2.1/01_a_backpack_and_an_umbrella/baseline.mp4" controls muted loop playsinline width="280"></video><br><a href="../assets/samples/wan2.1/01_a_backpack_and_an_umbrella/baseline.mp4">mp4</a></td>
-<td><video src="../assets/samples/wan2.1/01_a_backpack_and_an_umbrella/seacache.mp4" controls muted loop playsinline width="280"></video><br><a href="../assets/samples/wan2.1/01_a_backpack_and_an_umbrella/seacache.mp4">mp4</a></td>
-<td><video src="../assets/samples/wan2.1/01_a_backpack_and_an_umbrella/tafc.mp4" controls muted loop playsinline width="280"></video><br><a href="../assets/samples/wan2.1/01_a_backpack_and_an_umbrella/tafc.mp4">mp4</a></td>
-</tr>
-</table>
 
-*bar*
 
-<table>
-<tr><th align='center'>Original</th><th align='center'>SeaCache (δ = 0.2)</th><th align='center'>TAFC (δ = 0.03)</th></tr>
-<tr>
-<td><video src="../assets/samples/wan2.1/02_bar/baseline.mp4" controls muted loop playsinline width="280"></video><br><a href="../assets/samples/wan2.1/02_bar/baseline.mp4">mp4</a></td>
-<td><video src="../assets/samples/wan2.1/02_bar/seacache.mp4" controls muted loop playsinline width="280"></video><br><a href="../assets/samples/wan2.1/02_bar/seacache.mp4">mp4</a></td>
-<td><video src="../assets/samples/wan2.1/02_bar/tafc.mp4" controls muted loop playsinline width="280"></video><br><a href="../assets/samples/wan2.1/02_bar/tafc.mp4">mp4</a></td>
-</tr>
-</table>
+https://github.com/user-attachments/assets/076d2554-120a-4a41-8ad7-f8026dbc21fd
+
+
 
 
 | Method (T2V 1.3B, 480p) | Latency ↓ | TFLOPs ↓ | PSNR ↑ | SSIM ↑ | LPIPS ↓ | VBench ↑ |
