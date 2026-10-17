@@ -164,7 +164,7 @@ We evaluate TAFC on:
 - **Wan2.1**: VBench, PSNR, SSIM, LPIPS
 
 All reported experiments use a 50-step unaccelerated trajectory as the
-reference.:chatgpt-content-reference{index="4"}
+reference.
 
 
 ## News
