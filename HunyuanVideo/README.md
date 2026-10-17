@@ -152,24 +152,15 @@ Latency may vary depending on your GPU.
 
 ### Qualitative samples
 
-Left to right: original (50 steps), SeaCache (δ = 0.19), TAFC (δ = 0.02). If the videos do not play inline, use the mp4 links.
+Left to right: original (50 steps), Ours, SeaCache, TeaCache, TaylorSeer. If the videos do not play inline, use the mp4 links.
 
-*a donut on the top of broccoli, front view*
+https://github.com/user-attachments/assets/5e1ad98b-b38a-4bbe-be31-ddc62faee942
 
 https://github.com/user-attachments/assets/7f0b5071-1c43-44ed-88c0-101f96be535c
 
 
 
-*A tranquil tableau of a cup*
 
-<table>
-<tr><th align='center'>Original</th><th align='center'>SeaCache (δ = 0.19)</th><th align='center'>TAFC (δ = 0.02)</th></tr>
-<tr>
-<td><video src="../assets/samples/hunyuanvideo/02_A_tranquil_tableau_of_a_cup/baseline.mp4" controls muted loop playsinline width="280"></video><br><a href="../assets/samples/hunyuanvideo/02_A_tranquil_tableau_of_a_cup/baseline.mp4">mp4</a></td>
-<td><video src="../assets/samples/hunyuanvideo/02_A_tranquil_tableau_of_a_cup/seacache.mp4" controls muted loop playsinline width="280"></video><br><a href="../assets/samples/hunyuanvideo/02_A_tranquil_tableau_of_a_cup/seacache.mp4">mp4</a></td>
-<td><video src="../assets/samples/hunyuanvideo/02_A_tranquil_tableau_of_a_cup/tafc.mp4" controls muted loop playsinline width="280"></video><br><a href="../assets/samples/hunyuanvideo/02_A_tranquil_tableau_of_a_cup/tafc.mp4">mp4</a></td>
-</tr>
-</table>
 
 
 | Method (HunyuanVideo) | Latency ↓ | TFLOPs ↓ | PSNR ↑ | SSIM ↑ | LPIPS ↓ | VBench ↑ |
