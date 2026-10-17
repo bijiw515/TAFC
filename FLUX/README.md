@@ -250,10 +250,7 @@ Latency may vary depending on your GPU.
 
 Each image is a side-by-side comparison of the original FLUX.1-dev output and the cached results.
 
-<img width="5120" height="1024" alt="image" src="https://github.com/user-attachments/assets/82c643dd-9178-4cc6-b309-9d84a2202f22" />
-
-<img width="5120" height="1024" alt="image" src="https://github.com/user-attachments/assets/8d9bf0d7-144e-416b-a7eb-f041ef95935c" />
-
+<img width="1914" height="552" alt="275a4400-7918-4a17-af0e-902a683dc6cc" src="https://github.com/user-attachments/assets/778c1b4d-5806-49ed-a0ae-fe6eecaec1e1" />
 
 
 FLUX.1-dev, 1024×1024, 50 steps, HPSv3 evaluation:
