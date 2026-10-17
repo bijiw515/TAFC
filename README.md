@@ -86,21 +86,15 @@ generation, including approximately 2×–4× acceleration on FLUX.1-dev.:chatgp
 
 - [FLUX](./FLUX/README.md)
   - FLUX.1-dev
-  - FLUX.1-schnell
 
 ### Text-to-Video
 
 - [Wan2.1](./Wan2.1/README.md)
   - Wan2.1-T2V-1.3B
-  - Wan2.1-T2V-14B
 
 - [HunyuanVideo](./HunyuanVideo/README.md)
   - HunyuanVideo
 
-### Image-to-Video
-
-- [Wan2.1](./Wan2.1/README.md)
-  - Wan2.1-I2V-14B
 
 
 ## Quick Start
