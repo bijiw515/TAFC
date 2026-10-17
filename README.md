@@ -83,18 +83,23 @@ generation, including approximately 2×–4× acceleration on FLUX.1-dev.:chatgp
 ## Supported Models
 
 ### Text-to-Image
-- [FLUX](./FLUX/README_TAFC.md)
+
+- [FLUX](./FLUX/README.md)
   - FLUX.1-dev
   - FLUX.1-schnell
 
 ### Text-to-Video
-- [Wan2.1](./Wan2.1/README_TAFC.md)
+
+- [Wan2.1](./Wan2.1/README.md)
   - Wan2.1-T2V-1.3B
   - Wan2.1-T2V-14B
-- [HunyuanVideo](./HunyuanVideo/README_TAFC.md)
+
+- [HunyuanVideo](./HunyuanVideo/README.md)
+  - HunyuanVideo
 
 ### Image-to-Video
-- [Wan2.1](./Wan2.1/README_TAFC.md)
+
+- [Wan2.1](./Wan2.1/README.md)
   - Wan2.1-I2V-14B
 
 
@@ -120,15 +125,23 @@ cd Wan2.1
 pip install -r requirements.txt
 
 python tafc_generate.py \
+    --task t2v-1.3B \
+    --size 832*480 \
+    --ckpt_dir ./Wan2.1-T2V-1.3B \
     --prompt "A cat walks on the grass" \
-    --save_path ./results \
-    --tafc_thresh 0.3
+    --base_seed 42 \
+    --sample_steps 50 \
+    --tafc_thresh 0.15
+
+# Benchmark evaluation (VBench / PSNR / SSIM / LPIPS): see Wan2.1/README.md
 ```
 
 ### HunyuanVideo
 
 ```bash
 cd HunyuanVideo/HunyuanVideo
+
+# See HunyuanVideo/README.md for installation details
 
 python tafc_generate.py \
     --video-size 720 1280 \
