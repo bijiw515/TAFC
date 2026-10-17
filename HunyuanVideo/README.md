@@ -156,14 +156,9 @@ Left to right: original (50 steps), SeaCache (δ = 0.19), TAFC (δ = 0.02). If t
 
 *a donut on the top of broccoli, front view*
 
-<table>
-<tr><th align='center'>Original</th><th align='center'>SeaCache (δ = 0.19)</th><th align='center'>TAFC (δ = 0.02)</th></tr>
-<tr>
-<td><video src="../assets/samples/hunyuanvideo/01_a_donut_on_the_top_of_broccoli_front_view/baseline.mp4" controls muted loop playsinline width="280"></video><br><a href="../assets/samples/hunyuanvideo/01_a_donut_on_the_top_of_broccoli_front_view/baseline.mp4">mp4</a></td>
-<td><video src="../assets/samples/hunyuanvideo/01_a_donut_on_the_top_of_broccoli_front_view/seacache.mp4" controls muted loop playsinline width="280"></video><br><a href="../assets/samples/hunyuanvideo/01_a_donut_on_the_top_of_broccoli_front_view/seacache.mp4">mp4</a></td>
-<td><video src="../assets/samples/hunyuanvideo/01_a_donut_on_the_top_of_broccoli_front_view/tafc.mp4" controls muted loop playsinline width="280"></video><br><a href="../assets/samples/hunyuanvideo/01_a_donut_on_the_top_of_broccoli_front_view/tafc.mp4">mp4</a></td>
-</tr>
-</table>
+https://github.com/user-attachments/assets/7f0b5071-1c43-44ed-88c0-101f96be535c
+
+
 
 *A tranquil tableau of a cup*
 
